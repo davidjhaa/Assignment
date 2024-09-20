@@ -150,8 +150,8 @@
   .content{
     justify-content: space-between;
     /* padding: 40px 0px; */
-    padding-left: 18px;
-    padding-right: 18px;
+    /* padding-left: 18px;
+    padding-right: 18px; */
   }
 
   .links{
