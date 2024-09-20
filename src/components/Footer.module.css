@@ -76,5 +76,6 @@
     .container{
         grid-template-columns: 1fr 1fr;
         row-gap: 32px;
+        column-gap: 36px;
     }    
 }
