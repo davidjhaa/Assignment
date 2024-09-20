@@ -1,0 +1,170 @@
+.nav{
+    background-color: #d6932c;
+    width: 100vw;
+    color: white;
+    height: 220px;
+    padding: 40px;
+}
+
+.fixedNavbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #fff; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+}
+
+.hiddentoggler{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3a3632;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logo{
+  height: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    color: white;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.links span{
+    cursor: pointer;
+}
+
+.links span:hover{
+    color: #2c7fbf;
+}
+
+.toggler{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h2{
+    padding-left: 140px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.overlay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: 1000;
+}
+
+.overlayContent {
+    position: fixed;
+    right: 0%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    
+  }
+
+  .modal {
+    width: 300px;
+    height: 100vh;
+  }
+
+  .modalHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .closelogo{
+    width: 80%;
+  }
+
+  .modalHeader button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .modalHeader button:hover{
+    background-color: #3a3632;
+    color: white;
+  }
+
+  .sidelinks{
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .sidelink{
+    color: #3a3632;
+    font-size: 20px ;
+    font-weight: 700;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .sidelink:hover{
+    color: #2c7fbf;
+  }
+
+  .pages{
+    width: 34px;
+    height: 26px;
+    cursor: pointer;
+    color: #3a3632;
+}
+
+.pages:hover{
+    color: #2c7fbf;
+}
+
+@media(max-width:1024px){
+
+  .content{
+    justify-content: space-between;
+    /* padding: 40px 0px; */
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .links{
+    display: none;
+  }
+
+  .logo{
+    height: 30px;
+  }
+
+  .toggler{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
